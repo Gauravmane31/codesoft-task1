@@ -1,0 +1,414 @@
+ * {
+            margin: 0;
+            padding: 0;
+             font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: rgb(47, 43, 43);
+        }
+
+        .navbar {
+            height: 109px;
+        }
+
+        .logo {
+            background-image: url('/Images/logo.png');
+            background-size: 150px;
+            width: 150px;
+            height: 169px;
+            display: inline;
+            position: absolute;
+            z-index: 3;
+            left: 160px;
+        }
+
+        #logosample {
+            font-size: 25px;
+            justify-self: center;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        #logopara {
+            margin-top: 10px;
+            font-size: 15px;
+            justify-self: center;
+            width:120px;
+            text-align: center;
+        }
+
+        .navOptions {
+            width: 30vw;
+            height: 100px;
+            margin-right: 160px;
+            justify-self: end;
+        }
+
+        .navOptIn {
+            width: 30vw;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        .main {
+            background-image: url('/Images/mainbg.png');
+            height: 60vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            border-end-start-radius: 20px;
+            border-end-end-radius: 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .mainContent {
+            height: 60vh;
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .mainhead {
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        .button {
+            width: 120px;
+            height: 35px;
+            border: none;
+            font-size: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+            background-color: #FAC52D;
+        }
+
+        .secondsection {
+            padding-block: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            z-index: 1;
+            margin-top: 5px;
+        }
+
+        #secondsectiondiv1 {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        #secondsectiondiv2 {
+            width: 80vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .secondsecH2 {
+            color: rgb(237, 237, 237);
+            margin-bottom: 7px;
+        }
+
+        .flexdivs {
+            width: 380px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .images {
+            width: 380px;
+            height: 250px;
+            object-fit: cover;
+            object-position: right center;
+            border-radius: 20px;
+        }
+
+        .black_color {
+            color: black;
+        }
+
+        .buttonsize {
+            width: 100px;
+            height: 35px;
+            margin-bottom: 30px;
+        }
+
+        .secContentP {
+            color: rgb(146, 146, 146);
+        }
+
+        .yellow_color {
+            color: #d6b761;
+            font-size: 16px;
+        }
+
+        .thirdsection {
+            background-image: url(/Images/middlebg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .thirdsectiondiv1 {
+            width: 70vw;
+            height: 20vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .thirdsectiondiv12 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .fourthsection {
+            margin-block: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fourthsectionIn {
+            width: 70vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .fourthsectiondiv2 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .cards {
+            width: 300px;
+            display: flex;
+            gap: 20px;
+            word-break: break-all;
+        }
+
+        .cardsImg {
+            height: 50px;
+        }
+
+        .fifthsection {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fifthsectionIn {
+            margin-block: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .fifthsectiondiv2 {
+            width: 70vw;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .pricesCards {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .prices {
+            font-size: 100px;
+        }
+
+        .pricesTitle {
+            font-size: 30px;
+            margin-block: 20px;
+        }
+
+        .pricePara {
+            width: 20vw;
+            margin-bottom: 20px;
+        }
+
+        .sixthsection {
+            background-image: url('/Images/footer.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sixthsectionIn {
+            height: 50vh;
+            width: 70vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sexthsectiondiv1 {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .sexthsectiondiv1>h1 {
+            font-size: 50px;
+            width: 40vw;
+            margin-bottom: 30px;
+        }
+
+        .size {
+            width: 50vw;
+        }
+
+        .sexthsectiondiv2 {
+            background-color: #fff;
+            border-radius: 30px;
+            height: 40px;
+            display: flex;
+        }
+
+        #search {
+            box-sizing: border-box;
+            width: 400px;
+            height: 40px;
+            border: none;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            padding-inline-start: 20px;
+            outline-style: none;
+        }
+
+        #searchBtn {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+        }
+
+        #searchBtn>img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .seventhsection {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .seventhsectionIn {
+            margin-block: 40px;
+            width: 70vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .seventhsectiondiv1 {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .footerheads {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        .white_color {
+            color: rgb(237, 237, 237);
+        }
+
+        .footercards {
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .seventhsectiondiv2 {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .secenthh2 {
+            font-size: 25px;
+        }
+        .footer_cards_group{
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+        }
+        .fotter_dots {
+            width: 20px;
+            background-color: #FAC52D;
+            height: 20px;
+            border-radius: 50%;
+        }
+        .footerPinline{
+            display: flex;
+        }
+        .footerContentGap{
+            margin-bottom: 10px;
+        }
+        .footericons{
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
