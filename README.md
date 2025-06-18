@@ -60,9 +60,5 @@ https://github.com/your-username/your-repo-name.git
 
 ## Author
 
-- **Your Name** (replace with your actual name)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Your Name** Gaurav Mane
 
