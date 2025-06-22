@@ -60,5 +60,5 @@ https://github.com/your-username/your-repo-name.git
 
 ## Author
 
-- **Your Name** Gaurav Mane
+- **Gaurav Mane** 
 
