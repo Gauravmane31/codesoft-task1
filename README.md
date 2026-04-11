@@ -2,6 +2,10 @@
 
 This repository contains a simple responsive website built using **HTML** and **CSS**.
 
+## Live Demo
+
+👉 [View Portfolio](https://gauravmane31.github.io/codesoft-task1/)
+
 ## Project Overview
 
 The website includes multiple sections such as:
